@@ -1,0 +1,18 @@
+;
+;  Susie import filter plug-in
+;  spidef.def - Module definition file (without ConfigurationDlg API)
+;
+;  Public domain by MIYASAKA Masaru (Jul 26, 2002)
+;
+
+EXPORTS
+	GetPluginInfo   @1
+	GetPluginInfoW  @2
+	IsSupported     @3
+	IsSupportedW    @4
+	GetPictureInfo  @5
+	GetPictureInfoW @6
+	GetPicture      @7
+	GetPictureW     @8
+	GetPreview      @9
+	GetPreviewW     @10
